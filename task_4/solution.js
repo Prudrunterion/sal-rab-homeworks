@@ -30,5 +30,4 @@ let products = parseProducts(json);
 for (let i = 0; i < products.length; i += 1) {
     addProduct(products[i]);
  }
-    // дальнейшие действия требуется выполнять тут
  }
