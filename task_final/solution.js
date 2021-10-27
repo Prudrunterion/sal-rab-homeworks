@@ -50,7 +50,7 @@ function sendRequest(name, phone, address, goods, sum) {
             };
 
 
-    data.address = ['ул.' + ' ' + address.street, 'дом' + ' ' + address.house, address.entrance + ' ' + 'подъезд', address.floor + ' ' +'этаж', address.flat + ' ' + 'кв'];
+    data.address = ['ул.' + ' ' + address.street, 'дом' + ' ' + address.house, address.entrance + ' ' + 'подъезд', address.floor + ' ' +'этаж', 'кв' + ' ' + address.flat];
     
     data.order.sum = sum;
 
